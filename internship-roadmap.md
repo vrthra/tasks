@@ -42,13 +42,23 @@ __This work will give him an opportunity to learn__
 
 Point Person(s): Kylo Ginsberg
 
-| Task  | Milestone |
-|--------------------|----------|
-| Agile orientation | Attend daily startups, weekly planning, and biweekly retrospective.
-| Ticket lifecycle | Review platform board. Try the No Team / Client Team filters. Add a component to a currently No Team ticket so that it's (correctly) Client Team. Move a ticket between columns (then move it back so no one's confused).
-| Jenkins orientation | Manually start a puppet spec job, review logs after it completes. Ditto for an acceptance job. 
-| VM orientation | Install puppet on a vcloud vm, on a vagrant vm.  
-| Ruby orientation | Break puppet in some random way, run rspec to verify it’s broken, fix it, verify with rspec. No commits! 
+#### Tasks
+
+#### Agile orientation
+- [ ] Attend daily startups, weekly planning, and biweekly retrospective.
+
+#### Ticket lifecycle
+- [ ] Review platform board. Try the No Team / Client Team filters. Add a component to a currently No Team ticket so
+     that it's (correctly) Client Team. Move a ticket between columns (then move it back so no one's confused).
+
+#### Jenkins orientation
+- [ ] Manually start a puppet spec job, review logs after it completes. Ditto for an acceptance job. 
+
+####  VM orientation
+- [ ]  Install puppet on a vcloud vm, on a vagrant vm.  
+
+####  Ruby orientation
+- [ ]  Break puppet in some random way, run rspec to verify it’s broken, fix it, verify with rspec. No commits! 
 
 #### Key Resources (people, departments, links, etc.)
 N.A
@@ -58,12 +68,18 @@ N.A
  
 Point Person(s): Kylo Ginsberg, Andy Parker
 
-| Task  | Milestone |
-|--------------------|----------|
-| Familiarize with rubocop documentation and warnings it finds in puppet code. | brief writeup of rubocop analysis. 
-| Make lib/puppet/pops rubocop clean | PRs merged to puppet-4 branch making `rubocop lib/puppet/pops’ clean. This will likely be a combination of rubocop configuration and code changes. 
-| Extend to rest of puppet code base. | PRs merged to puppet-4 branch make `rubocop lib` clean. Same caveats as above. Ideally the same configuration works throughout. 
-| CI support for static analysis | add travis and jenkins support for rubocop. 
+###  Task
+####  Familiarize with rubocop documentation and warnings it finds in puppet code.
+- [ ]  brief writeup of rubocop analysis. 
+
+####  Make lib/puppet/pops rubocop clean
+- [ ]  PRs merged to puppet-4 branch making `rubocop lib/puppet/pops’ clean. This will likely be a combination of rubocop configuration and code changes. 
+
+####  Extend to rest of puppet code base.
+- [ ]  PRs merged to puppet-4 branch make `rubocop lib` clean. Same caveats as above. Ideally the same configuration works throughout. 
+
+####  CI support for static analysis
+- [ ]  add travis and jenkins support for rubocop. 
 
 #### Key Resources (people, departments, links, etc.)
 N.A
@@ -73,11 +89,15 @@ Refactoring of Puppet Modules
 
 Point Person(s): Kylo Ginsberg
 
-| Task  | Milestone |
-|--------------------|----------|
-| Extract nagios into a separate repo, including tests. | PRs to puppet-4 and new repo to separate nagios. 
-| Package puppet to include nagios. | PRs to include nagios in puppet at package time. This will include work with Release Engineering. 
-| Stretch goal: do the same for puppet module tool. | PRs to extract and re-package PMT as well. 
+###  Task
+####  Extract nagios into a separate repo, including tests.
+- [ ]  PRs to puppet-4 and new repo to separate nagios. 
+
+####  Package puppet to include nagios.
+- [ ]  PRs to include nagios in puppet at package time. This will include work with Release Engineering. 
+
+####  Stretch goal: do the same for puppet module tool.
+- [ ]  PRs to extract and re-package PMT as well. 
 
 ### Key Resources (people, departments, links, etc.)
 N.A
@@ -87,11 +107,15 @@ Native Facter support for Solaris
  
 Point Person(s): Kylo Ginsberg, Peter Huene
 
-| Task  | Milestone |
-|--------------------|----------|
-| Build existing native facter on Solaris | PRs merged to support building on Solaris. 
-| Identify missing/incorrect facts on Solaris, comparing with ruby facter. | Jira tickets describing work remaining on Solaris. 
-| Fill in missing facts on Solaris. Step (b) above will tell us how much work this is. | PRs merged to support facts on Solaris. 
+###  Task
+####  Build existing native facter on Solaris
+- [ ]  PRs merged to support building on Solaris. 
+
+####  Identify missing/incorrect facts on Solaris, comparing with ruby facter.
+- [ ]  Jira tickets describing work remaining on Solaris. 
+
+####  Fill in missing facts on Solaris. Step (b) above will tell us how much work this is.
+- [ ]  PRs merged to support facts on Solaris. 
 
 #### Key Resources (people, departments, links, etc.)
 
@@ -105,11 +129,15 @@ Work with community contributions.
  
 Point Person(s): Kylo Ginsberg
 
-| Task  | Milestone |
-|--------------------|----------|
-| Learn about PR triage process | Review open pulls. Attend a PR triage session. 
-| Merge a straightforward (no changed needed) community PR. | pair with someone on the team to merge a community PR. Ensure it makes it through CI/FR. Be sure to thank the contributor! 
-| Merge a community PR with edits needed. | pair with someone on the team for a PR which requires some back-forth with the contributor. Ensure final PR makes it through CI/FR. Be sure to thank the contributor! 
+###  Task
+####  Learn about PR triage process
+- [ ]  Review open pulls. Attend a PR triage session. 
+
+####  Merge a straightforward (no changed needed) community PR.
+- [ ]  pair with someone on the team to merge a community PR. Ensure it makes it through CI/FR. Be sure to thank the contributor! 
+
+####  Merge a community PR with edits needed.
+- [ ]  pair with someone on the team for a PR which requires some back-forth with the contributor. Ensure final PR makes it through CI/FR. Be sure to thank the contributor! 
 
 #### Key Resources (people, departments, links, etc.)
 
@@ -118,10 +146,12 @@ Release software
 
 Point Person(s): Kylo Ginsberg
 
-| Task  | Milestone |
-|--------------------|----------|
-| Z release process, e.g. puppet 3.6.2 | participate in smoke testing for a Z release. Pair on the ticket/commit reconciliation steps. 
-| Y release process, e.g. puppet 3.7.0 | participate in ticket/commit reconciliation for a Y release. This is mostly the same as a Z release, but there can be a lot more ticket/commit reconciliation. 
+### Task
+####  Z release process, e.g. puppet 3.6.2
+- [ ]  participate in smoke testing for a Z release. Pair on the ticket/commit reconciliation steps. 
+
+####  Y release process, e.g. puppet 3.7.0
+- [ ]  participate in ticket/commit reconciliation for a Y release. This is mostly the same as a Z release, but there can be a lot more ticket/commit reconciliation. 
 
 #### Key Resources (people, departments, links, etc.)
 N.A

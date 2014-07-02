@@ -73,7 +73,7 @@ Refactoring of Puppet Modules
 
 Point Person(s): Kylo Ginsberg
 
-| Tasks / Milestones | Due Date |
+| Tasks / Milestones | Milestone |
 |--------------------|----------|
 | Extract nagios into a separate repo, including tests. | PRs to puppet-4 and new repo to separate nagios. 
 | Package puppet to include nagios. | PRs to include nagios in puppet at package time. This will include work with Release Engineering. 
@@ -87,7 +87,7 @@ Native Facter support for Solaris
  
 Point Person(s): Kylo Ginsberg, Peter Huene
 
-| Tasks / Milestones | Due Date |
+| Tasks / Milestones | Milestone |
 |--------------------|----------|
 | Build existing native facter on Solaris | PRs merged to support building on Solaris. 
 | Identify missing/incorrect facts on Solaris, comparing with ruby facter. | Jira tickets describing work remaining on Solaris. 
@@ -105,7 +105,7 @@ Work with community contributions.
  
 Point Person(s): Kylo Ginsberg
 
-| Tasks / Milestones | Due Date |
+| Tasks / Milestones | Milestone |
 |--------------------|----------|
 | Learn about PR triage process | Review open pulls. Attend a PR triage session. 
 | Merge a straightforward (no changed needed) community PR. | pair with someone on the team to merge a community PR. Ensure it makes it through CI/FR. Be sure to thank the contributor! 
@@ -118,7 +118,7 @@ Release software
 
 Point Person(s): Kylo Ginsberg
 
-| Tasks / Milestones | Due Date |
+| Tasks / Milestones | Milestone |
 |--------------------|----------|
 | Z release process, e.g. puppet 3.6.2 | participate in smoke testing for a Z release. Pair on the ticket/commit reconciliation steps. 
 | Y release process, e.g. puppet 3.7.0 | participate in ticket/commit reconciliation for a Y release. This is mostly the same as a Z release, but there can be a lot more ticket/commit reconciliation. 

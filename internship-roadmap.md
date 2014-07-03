@@ -38,7 +38,7 @@ __This work will give him an opportunity to learn__
 6. Release software
 
 ### Key Objective #1 (from above)
- Become familiar with the agile workflow and ticket lifecycle.
+Become familiar with the agile workflow and ticket lifecycle.
 
 Point Person(s): Kylo Ginsberg
 
